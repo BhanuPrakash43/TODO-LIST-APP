@@ -1,9 +1,5 @@
-.comp {
-    display: inline-block;
-    position: relative;
-}
-
-.completed {
+.about {
+    /* font-size: 2rem; */
     max-width: 700px;
     width: 40%;
     margin: auto;
