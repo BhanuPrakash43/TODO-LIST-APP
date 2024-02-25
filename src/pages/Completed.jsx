@@ -9,7 +9,7 @@ function Completed({ todos }) {
       <h1 className={styles.comp}>Completed Todos List</h1>
         {completedTodos.map((todo) => (
           <div key={todo.id}>
-            <h2><MdDoubleArrow />   {todo.title}</h2>
+            <h2 className={styles.compTitle}><MdDoubleArrow />   {todo.title}</h2>
           </div>
         ))}
       </div>

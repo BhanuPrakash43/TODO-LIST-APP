@@ -1,13 +1,15 @@
 .nav {
+  max-width: 1400px;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: auto;
 }
 
 .logo {
   color: #646cff;
   font-size: 2rem;
-  margin: 20px 30px;
 }
 
 .navItems {
@@ -24,4 +26,11 @@
 
 .navItems > li:hover {
   border: 2px solid #646cff;
+  border-radius: 4px;
+}
+
+.impLinks {
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
